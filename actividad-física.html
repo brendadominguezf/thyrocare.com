@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad Física</title>
+    <link rel="shortcut icon" href="img/thyrocare.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos-actividad-física.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">THYROCARE</a>
+        <nav class="navegación">
+            <ul class="nav">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Tiroides</a>
+                    <ul class="submenu1">
+                        <li><a href="introducción.html">Introducción</a></li>
+                        <li><a href="síntomas.html">Síntomas</a></li>
+                        <li><a href="tratamiento.html">Tratamiento</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Tips</a>
+                    <ul class="submenu2">
+                        <li><a href="alimentación.html">Alimentación</a></li>
+                        <li><a href="actividad-física.html">Actividad física</a></li>
+                    </ul>
+                </li>
+                <li><a href="conóceme.html">Conóceme</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="actividad-física">
+        <section class="textos-actividad-física">
+            <h1>Actividad física</h1>
+            <h2>para la tiroides</h2>
+        </section>
+    </section>
+    <main>
+        <section class="contenedor-actividad-física">
+            <div class="contenido-información">
+                <div class="contenido-texto-información">
+                    <p>Los desequilibrios de la hormona tiroidea provocan cambios involuntarios en el peso de quien lo padece, debilidad y cansancio y otro tipo de alteraciones relacionadas.</p>
+                    <p>Quien sufre de hipotiroidismo, la hormona del tiroides será baja, por lo que el metabolismo funcionará mucho más lento, haciendo que el peso aumente. Y quien sufra de hipertiroidismo, va a tener los niveles de hormona tiroidea más altos por lo que su frecuencia cardíaca se verá aumentada.</p>
+                    <p>El aeróbico moderado, como el caminar, la natación, la bicicleta, siempre con intensidades medias y con una duración entre 30-40 minutos y unas 5 veces por semana como máximo, es el mejor ejercicio para cualquiera de los dos casos de tiroides. También se puede combinar el entrenamiento con ejercicios de fuerza.</p>
+                    <p>De igual forma, se debe tener en cuenta la supervisión del médico que nos esté tratando la enfermedad y los posibles efectos de los medicamentos que estemos tomando , por lo que siempre y cuando estemos en supervisión constante,  las personas que padecen estos trastornos van a notar como el ejercicio les ayuda y complementa en su regulación de la hormona tiroidea <a href="#apa1">[1]</a>.</p>
+                </div>
+            </div>
+        </section>
+        <section class="citas-apa">
+            <div class="contenedor-citas-apa">
+                <h3>BIBLIOGRAFÍA</h3>
+                <p id="apa1">[1] Estefanía Arnaldo (17/04/2013). Cómo hacer ejercicio con problemas de tiroides. HOLA. <a href="https://www.hola.com/belleza/consejos/2013041764427/hacer-ejercicio-con-problema-tiroides/#:~:text=El%20ejercicio%20ideal%20para%20cualquiera,entrenamiento%20con%20ejercicios%20de%20fuerza.">https://www.hola.com/belleza/consejos/2013041764427/hacer-ejercicio-con-problema-tiroides/#:~:text=El%20ejercicio%20ideal%20para%20cualquiera,entrenamiento%20con%20ejercicios%20de%20fuerza.</a></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <h2 class="título-footer">ThyroCare | Brenda Dominguez</h2>
+        </div>
+    </footer>
+</body>
+</html>
+<script type="text/javascript">
+    window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("abajo",window.scrollY>0);
+    })
+</script>

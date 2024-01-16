@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamiento</title>
+    <link rel="shortcut icon" href="img/thyrocare.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos-tratamiento.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">THYROCARE</a>
+        <nav class="navegación">
+            <ul class="nav">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Tiroides</a>
+                    <ul class="submenu1">
+                        <li><a href="introducción.html">Introducción</a></li>
+                        <li><a href="síntomas.html">Síntomas</a></li>
+                        <li><a href="tratamiento.html">Tratamiento</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Tips</a>
+                    <ul class="submenu2">
+                        <li><a href="alimentación.html">Alimentación</a></li>
+                        <li><a href="actividad-física.html">Actividad física</a></li>
+                    </ul>
+                </li>
+                <li><a href="conóceme.html">Conóceme</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="tratamiento">
+        <section class="textos-tratamiento">
+            <h1>Tratamiento</h1>
+            <h2>para la tiroides</h2>
+        </section>
+    </section>
+    <main>
+        <section class="contenedor-tratmiento">
+            <div class="contenido-información">
+                <div class="contenido-texto-información">
+                    <h3>Hipotiroidismo</h3>
+                    <p>El hipotiroidismo puede ser una enfermedad crónica, pero es controlable con medicación de por vida.</p>
+                    <p>El tratamiento se basa en sustituir la hormona T4 que la tiroides ya no puede producir, por tiroxina sintética (T4) a través de una dosis diaria. Este tratamiento es importante para que los órganos y aparatos sigan realizando sus funciones, siendo incentivados por la hormona tiroidea que, en casos como este, en lugar de producirse en el interior, se produce mediante medicación. Con este tratamiento se logra regular los niveles hormonales y el metabolismo vuelve a su normalidad.</p>
+                    <p>Este tratamiento es permanente (el cual debe ser controlado por un médico) pero permite a la persona que sufre de hipotiroidismo vivir una vida con normalidad en la mayoría de los casos <a href="#apa1">[1]</a>.</p>
+                </div>
+                <div class="contenido-texto-información">
+                    <h3>Hipertiroidismo</h3>
+                    <p>El tratamiento para el hipertiroidismo depende mucho de la causa de la enfermedad de la severidad de los síntomas y de la edad del paciente. Pero hay dos formas de tratar el hipertiroidismo: por tratamiento farmacéutico y tratamiento de yodo radioactivo.</p>
+                    <div class="contenido-subtexto-información">
+                        <h3>Tratamiento farmacéutico</h3>
+                        <p>Los medicamentos principales que se utilizan para frenar las hormonas tiroideas son el metimazol, neotomizol o propiltiouracilo, los cuales sirven para controlar el hipertiroidismo, pero no reducen el tamaño del tiroides ni actúan sobre su causa.</p>
+                    </div>
+                    <div class="contenido-subtexto-información">
+                        <h3>Tratamiento con yodo radioactivo</h3>
+                        <p>El objetivo de este tratamiento consiste en reducir el tamaño del tiroides y disminuir el nivel de la hormona tiroidea en la sangre de forma progresiva en poco tiempo. El yodo se administra por vía oral o por vía endovenosa y entra en el tiroides donde es captado por las células hiperactivas. Después del tratamiento se administra antitiroideos al paciente para luego realizarle una prueba de sangre para valorar la respuesta de su tiroides al tratamiento <a href="#apa2">[2]</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="citas-apa">
+            <div class="contenedor-citas-apa">
+                <h3>BIBLIOGRAFÍA</h3>
+                <p id="apa1">[1] Doctor Julio Maset (04/12/ 2017). ¿Qué es el hipotiroidismo? Síntomas y tratamiento. Cinfasalud. <a href="https://cinfasalud.cinfa.com/p/hipotiroidismo/">https://cinfasalud.cinfa.com/p/hipotiroidismo/</a></p>
+                <p id="apa2">[2] Felicia Alexandra Hanzu, Mireia Mora Porta (17/06/2021). Tratamiento del Hipertiroidismo. Hospital Clínic Barcelona. <a href="https://www.clinicbarcelona.org/asistencia/enfermedades/hipertiroidismo/tratamiento">https://www.clinicbarcelona.org/asistencia/enfermedades/hipertiroidismo/tratamiento</a></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <h2 class="título-footer">ThyroCare | Brenda Dominguez</h2>
+        </div>
+    </footer>
+</body>
+</html>
+<script type="text/javascript">
+    window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("abajo",window.scrollY>0);
+    })
+</script>

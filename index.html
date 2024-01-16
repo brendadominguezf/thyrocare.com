@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThyroCare</title>
+    <link rel="shortcut icon" href="img/thyrocare.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">THYROCARE</a>
+        <nav class="navegación">
+            <ul class="nav">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Tiroides</a>
+                    <ul class="submenu1">
+                        <li><a href="introducción.html">Introducción</a></li>
+                        <li><a href="síntomas.html">Síntomas</a></li>
+                        <li><a href="tratamiento.html">Tratamiento</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Tips</a>
+                    <ul class="submenu2">
+                        <li><a href="alimentación.html">Alimentación</a></li>
+                        <li><a href="actividad-física.html">Actividad física</a></li>
+                    </ul>
+                </li>
+                <li><a href="conóceme.html">Conóceme</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="zona1">
+        <section class="textos-slogan">
+            <h1>El secreto de la salud</h1>
+            <h2>está en tu tiroides</h2>
+        </section>
+        <div clas="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </section>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h1 class="título">¿QUIÉNES SOMOS?</h1>
+            <div class="contenido-sobre-nosotros">
+                <img src="img/ilustración sobre nosotros.png" alt="" class="imagen-sobre-nostros">
+                <div class="contenido-texto-sobre-nosotros">
+                    <h2 class="slogan">Una comunidad que te ayudará a entenderte a tí y a tu cuerpo</h2>
+                    <p>ThyroCare es un proyecto que permite a todos aquellos jóvenes a descubrir su sistema endocrino con un enfoque especializado en el tiroides. Te proporcionaremos información y tips para poder aprovechar al 100% nuestra salud endocrina y a seguir descubriéndonos.</p>
+                </div>
+            </div>
+        </section>
+        <section class="objetivos">
+            <div class="contenedor-objetivos">
+                <h2 class="título">OBJETIVOS</h2>
+                <div class="galería-objetivos">
+                    <div class="imagenes-objetivos">
+                        <img src="img/objetivo 1.png" alt="">
+                        <p>Motivar a los jóvenes a indagar sobre su sistema endocrino, y llevar esos conocimientos a la práctica de cuidar nuestra salud.</p>
+                    </div>
+                    <div class="imagenes-objetivos">
+                        <img src="img/objetivo 2.png" alt="">
+                        <p>Aprender a cuidar nuestro sistema endocrino, implementando esos conocimientos día a día y compartiendo las enseñanzas con conocidos.</p>
+                    </div>
+                    <div class="imagenes-objetivos">
+                        <img src="img/objetivo 3.png" alt="">
+                        <p>Crear una comunidad unida que pueda compartir sus experiencias, conocimientos y tips para todos los jóvenes que recién están conociendo este lado de su salud.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <h2 class="título-footer">ThyroCare | Brenda Dominguez</h2>
+        </div>
+    </footer>
+</body>
+</html>
+<script type="text/javascript">
+    window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("abajo",window.scrollY>0);
+    })
+</script>
